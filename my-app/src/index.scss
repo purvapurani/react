@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+html{
+    font-size: 10px;    
+}
+body{
+    font-size: 1.6rem;
+    line-height: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 0.5px;
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    section{
+        margin: 20px auto;
+    }
+}
+button{
+    background: #10069f;
+    color: #fff;
+    border: 1px solid #10069f;
+    padding: 5px 10px;
+    margin-top: 10px;
+    transition: all 0.3s;
+    &:hover{
+        background: #fff;
+        color: #10069f;
+        cursor: pointer;
+    }
+}
+form{
+    background: #e3e3e3;
+    padding: 20px 10px;
+    label{
+        display: inline-block;
+        width: 80px;
+    }
+    fieldset{
+        border: 0;
+    }
+}
